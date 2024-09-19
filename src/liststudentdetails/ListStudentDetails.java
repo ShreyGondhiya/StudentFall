@@ -30,10 +30,10 @@ public class ListStudentDetails {
         s3.setSid(3);
         
         //s1, s2, s3 - 3 students
-        Student[] list = new Student[2];
+        Student[] list = new Student[3];
         list[0] = s1;
         list[1] = s2;
-        //list[2] = s3;
+        list[2] = s3;
         for(int i=0; i<list.length; i++)
         {
             System.out.println(list[i].getName() + " " + list[i].getSid()); // s1,s2,s3
