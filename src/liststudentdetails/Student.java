@@ -12,6 +12,8 @@ public class Student //entity
 {
     private String name; //variables must always be defined as private - "encapsulation"
     private int Sid;
+private int sem;
+private float fee;
 
     /**
      * @return the name
@@ -40,4 +42,34 @@ public class Student //entity
     public void setSid(int sid) {
         this.Sid = sid;
     }
+    
+     /**
+     * @return the sem
+     */
+    public int getSem() {
+        return sem;
+    }
+
+    /**
+     * @param sem the sem to set
+     */
+    public void setSem(int sem) {
+        this.sem = sem;
+    }
+    
+    /**
+     * @return the fee
+     */
+    public float getFee() {
+        return fee;
+    }
+
+    /**
+     * @param fee the fee to set
+     */
+    public void setFee(float fee) {
+        this.fee = fee;
+    }
+
+
 }
