@@ -14,6 +14,7 @@ public class Student //entity
     private int Sid;
 private int sem;
 private float fee;
+    private String CourseDetails;
 
     /**
      * @return the name
